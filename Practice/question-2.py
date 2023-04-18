@@ -5,7 +5,7 @@ balance = float(input("Enter the account balance :  "))
 
 
 operations = int(input(
-    "Enter which operation you want to perform : \n1.Deposit \n 2.Withdraw \n 3.view balance \n 4.exit \n" ))
+    "Enter which operation you want to perform : \n 1.Deposit \n 2.Withdraw \n 3.view balance \n 4.exit \n" ))
 
 if operations == 1:
     deposit=float(input("Enter the amount to be deposited : "))
